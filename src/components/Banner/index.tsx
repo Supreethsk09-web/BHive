@@ -6,7 +6,7 @@ import '../Banner/banner.css'
 const Banner = () => {
 return(
     <div>
-        <Row className='ml-0 mr-0 mb-0 bannerStart'>
+        <Row className='ml-0 mr-0 mb-0 bannerStart m-0'>
             <Col xs={12} lg={8} md={8} className='p-0'>
             <div className='banner'>
                 <div className='banner-text px-5'>
