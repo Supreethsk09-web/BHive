@@ -5,7 +5,7 @@ const download = () => {
 return(
     <div>
     <Container>
-    <div className=''>
+    <div className='row m-0'>
         <img src={DownloadImage} alt="download" />
     </div>
     </Container>
