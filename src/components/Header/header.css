@@ -1,0 +1,10 @@
+.callborder {
+    border:  1px solid #FFBB00;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.NavProp {
+    background-color: #FFF;
+    height: 90px;
+}

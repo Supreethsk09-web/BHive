@@ -1,12 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Banner from './components/Banner';
+import Choose from './components/Choose';
+import Download from './components/Download';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Overview from './components/Overview';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      Hello World
-    </div>
+    <>
+      <Header />
+      <Banner />
+      <Choose />
+      <Overview />
+      <Download />
+      <Footer />
+    </>
   );
 }
 

@@ -1,0 +1,45 @@
+.chooseText{
+    font-size: 18px;
+    font-weight: 500;
+    color: #263238;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;   /* Allow items to wrap to the next line */
+  }
+  
+  .box-right {
+    flex: 1 1 calc(25% - 10px); /* 4 items per row with gap considered */
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: left;
+    border-right: 1px solid lightgray;
+  }
+  .box-center {
+    flex: 1 1 calc(25% - 10px); /* 4 items per row with gap considered */
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+  }
+  .box-bottom {
+    flex: 1 1 calc(25% - 10px); /* 4 items per row with gap considered */
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+  }
+  .box {
+    flex: 1 1 calc(25% - 10px); /* 4 items per row with gap considered */
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: left;
+  }
+  .icon{
+    width: 32px;
+    height: 16px;
+    margin-right: 12px;
+    margin-top: 5px;
+  }

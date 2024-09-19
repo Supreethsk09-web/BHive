@@ -1,0 +1,47 @@
+.card {
+    border: none; /* Remove default border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add shadow for depth */
+  }
+  
+  .card-img-top {
+    height: 200px; /* Fixed image height */
+    object-fit: cover; /* Ensure images cover the area */
+  }
+  
+  .card-body {
+    padding: 20px; /* Card padding */
+  }
+  
+  .btn {
+    width: 100%; /* Make buttons full width */
+    margin-top: 10px; /* Space between buttons */
+  }
+
+  .cardContainer {
+    border-radius: 8px;
+    border:1px solid #EEE7E7CC;
+    padding: 10px
+  }
+  .cardHeader {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .cardNavigateContainer {
+    border: 1px solid #EEE7E7;
+    background-color: #f9f9f9;
+    border-radius: 7px; 
+    color: #26323880;
+    padding: 10px 0px;
+  }
+
+  .imageStyle {
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+    height: 200px;
+  }
+
+  .directionText{
+    font-size: 8px;
+    font-weight: 500;
+  }
