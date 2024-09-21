@@ -34,3 +34,46 @@
   .bannerStart {
     margin-top: 80px !important;
   }
+
+  @media (max-width: 500px) {
+    .bannerStart {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 10%;
+      }
+      .coWorkImage {
+        bottom: 50px;
+        left: 40px;
+    }
+    .banner-text{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .banner-text span{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .coWorkImageout {
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 1100px) and (min-width: 500px) {
+    .banner-text{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .banner-text span{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .bannerStart {
+        padding-top: 6%;
+      }
+    .coWorkImage {
+        width: 100%;
+    }
+    .coWorkImageout {
+        width: 100%;
+    }
+}

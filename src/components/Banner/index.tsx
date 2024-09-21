@@ -7,16 +7,16 @@ const Banner = () => {
 return(
     <div>
         <Row className='ml-0 mr-0 mb-0 bannerStart m-0'>
-            <Col xs={12} lg={8} md={8} className='p-0'>
+            <Col xl={8} xs={12} lg={6} md={8} className='p-0'>
             <div className='banner'>
                 <div className='banner-text px-5'>
                 Host your meeting with world-class amenities. Starting at <span>₹199/-!</span>
                 </div>
             </div>
             </Col>
-            <Col xs={12} lg={4} md={4} className='p-0 d-flex justify-content-end'>
+            <Col xl={4} xs={12} lg={6} md={4} className='p-0 d-flex justify-content-end'>
             <div className='coworkContainer'>
-            <img src={Vector} alt="vec"/>
+            <img src={Vector} alt="vec" className='coWorkImageout'/>
             <img src={CoWorking} alt="cowork" className='coWorkImage' />
             </div>
             </Col>
