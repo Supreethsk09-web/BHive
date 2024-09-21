@@ -56,6 +56,9 @@
     .coWorkImageout {
         width: 100%;
     }
+    .coWorkImage {
+        width: 100%;
+    }
   }
 
   @media (max-width: 1200px) and (min-width: 500px) {
