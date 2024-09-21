@@ -58,13 +58,13 @@
     }
   }
 
-  @media (max-width: 1100px) and (min-width: 500px) {
+  @media (max-width: 1200px) and (min-width: 500px) {
     .banner-text{
-        font-size: 20px;
+        font-size: 26px;
         font-weight: 600;
     }
     .banner-text span{
-        font-size: 20px;
+        font-size: 26px;
         font-weight: 600;
     }
     .bannerStart {
