@@ -46,7 +46,7 @@
     font-weight: 500;
   }
 
-  @media (max-width: 1080px) {
+  @media (max-width: 1150px) {
     .cardHeader {
         font-size: 18px;
         font-weight: 600;

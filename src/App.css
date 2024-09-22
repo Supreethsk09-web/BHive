@@ -64,7 +64,7 @@ color: #605F5F;
   font-weight: 400;
   font-size: 14px;
 }
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
   .headerText {
     font-size: 24px;
     font-weight: 600;
