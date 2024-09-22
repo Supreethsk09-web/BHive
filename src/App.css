@@ -78,6 +78,9 @@ color: #605F5F;
     font-weight: 600;
     font-size: 15px;
   }
+  .chooseText {
+    font-size: 15px;
+  }
   
   /* .buttonNumber span {
     font-weight: 500;

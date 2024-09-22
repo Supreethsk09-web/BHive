@@ -78,4 +78,7 @@
     .considerDiv {
         display: none;
     }
+    .chooseText {
+      font-size: 15px;
+    }
   }
