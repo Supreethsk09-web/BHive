@@ -74,7 +74,8 @@
         padding-top: 6%;
       }
     .coWorkImage {
-        width: 100%;
+        width: 90%;
+        left: 30px;
     }
     .coWorkImageout {
         width: 100%;

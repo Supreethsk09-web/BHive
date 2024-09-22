@@ -45,3 +45,11 @@
     font-size: 8px;
     font-weight: 500;
   }
+
+  @media (max-width: 1080px) {
+    .cardHeader {
+        font-size: 18px;
+        font-weight: 600;
+        word-break: break-all;
+      }
+  }

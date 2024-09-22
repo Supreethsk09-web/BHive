@@ -8,7 +8,28 @@
     display: flex;
     flex-wrap: wrap;   /* Allow items to wrap to the next line */
   }
-  
+  .consider {
+    display: none;
+  }
+  .considerDiv {
+    display: none;
+  }
+  .item{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .chooseContainer{
+    flex: 1 0 40%;
+            margin: 10px;
+            background-color: #FFF;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            box-shadow: 0px 2px 4px 0px #0000000F;
+            border-radius: 6px;
+            color: #263238;
+  }
   .box-right {
     flex: 1 1 calc(25% - 10px); /* 4 items per row with gap considered */
     box-sizing: border-box;
@@ -42,4 +63,19 @@
     height: 16px;
     margin-right: 12px;
     margin-top: 5px;
+  }
+
+  @media (max-width: 500px) {
+    .considerDiv {
+        display: flex;
+    }
+  }
+
+  @media (max-width: 3000px) and (min-width: 800px) {
+    .consider {
+        display: flex;
+    }
+    .considerDiv {
+        display: none;
+    }
   }
